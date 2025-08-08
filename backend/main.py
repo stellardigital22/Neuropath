@@ -8,7 +8,7 @@ app = FastAPI()
 # ✅ CORS Fix: Allow Vercel Frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://neuropath-cgtb.verx3b3x5h-stellar-digitals-projects.vercel.app"],
+    allow_origins=["https://neuropath-cgtb-env3b3x5h-stellar-digitals-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
